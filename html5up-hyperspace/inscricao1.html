@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<!--
+    Hyperspace by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Inscrição - Inglês para Crianças</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    
+</head>
+<body class="is-preload">
+
+<!-- Header -->
+<header id="header">
+    <a href="index.html" class="title">Hyperspace</a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="inscricao2.html">Natureza</a></li>
+            <li><a href="inscricao3.html">Culinaria</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+    <section id="main" class="wrapper">
+        <div class="inner">
+            <h1 class="major">Inscrição</h1>
+
+            <!-- Form -->
+            <section>
+                <form method="post" action="https://65f1e69d034bdbecc763fc87.mockapi.io/api/v1/DadosCursos">
+                    <div class="row gtr-uniform">
+                        <div class="col-6 col-12-xsmall">
+
+                            <h2>Dados do Aluno</h2>
+                            <input type="text" name="aluno-nome" id="aluno-nome" value="" placeholder="Nome*" required/>
+                            <input type="text" name="endereco" id="endereco" value="" placeholder="Endereço" />
+                            <input type="text" name="bairro" id="bairro" value="" placeholder="Bairro" />
+                            <input type="text" name="cidade" id="cidade" value="" placeholder="Cidade" />
+                            <input type="text" name="numero" id="numero" value="" placeholder="Número" />
+                            <input type="text" name="cep" id="cep" value="" placeholder="CEP" />
+                            <input type="text" name="complemento" id="complemento" value="" placeholder="Complemento" />
+                            <input type="text" name="estado" id="estado" value="" placeholder="Estado" />
+                            <input type="text" name="telefone" id="telefone" value="" placeholder="Telefone" />
+                            <input type="text" name="celular" id="celular" value="" placeholder="Celular*" required/>
+                            <input type="email" name="email" id="email" value="" placeholder="E-mail*" required/>
+
+                            <select             name="cor" id="cor" required>
+                                <option value="">Selecione a cor*</option>
+                                <option value="branca">Branca</option>
+                                <option value="preta">Preta</option>
+                                <option value="parda">Parda</option>
+                                <option value="amarela">Amarela</option>
+                                <option value="indigena">Indígena</option>
+                            </select>
+
+                        </div>
+
+
+                        <div class="col-6 col-12-xsmall">
+
+                            <h2>Dados do Pai</h2>
+                            <input type="text"     name="pai-nome" id="pai-nome" value="" placeholder="Nome*" required/>
+                            <label for="">Data de nascimento: </label> 
+                            <input type="date" name="pai-data" id="pai-data" value="" placeholder="Data de Nascimento" required/>
+                            <input type="text"     name="pai-naturalidade" id="pai-naturalidade" value="" placeholder="Naturalidade" />
+                            <input type="text"     name="pai-instrucao" id="pai-instrucao" value="" placeholder="Instrução" />
+                            <input type="text"     name="pai-profissao" id="pai-profissao" value="" placeholder="Profissão" />
+                            <input type="text"     name="pai-telefone" id="pai-telefone" value="" placeholder="Celular*" required/>
+                            <input type="email"    name="pai-email" id="pai-email" value="" placeholder="E-mail*" required/>
+                            <input type="text"     name="pai-cpf" id="pai-cpf" value="" placeholder="CPF*" required/>
+                            <input type="checkbox" name="pai-responsavel" id="pai-responsavel" />
+                            <label for="pai-responsavel" class="checkbox-label">Responsável Financeiro</label>
+
+                        </div>
+
+
+                        <div class="col-6 col-12-xsmall">
+
+                            <h2>Dados da Mãe</h2>
+                            <input type="text" name="mae-name" id="mae-name" value="" placeholder="Nome*" required/>
+                            <label for="">Data de nascimento: </label> 
+                            <input type="date" name="mae-data" id="mae-data" value="" placeholder="Data de Nascimento" required/>
+                            <input type="text" name="mae-naturalidade" id="mae-naturalidade" value="" placeholder="Naturalidade" />
+                            <input type="text" name="mae-instrucao" id="mae-instrucao" value="" placeholder="Instrução" />
+                            <input type="text" name="mae-profissao" id="mae-profissao" value="" placeholder="Profissão" />
+                            <input type="text" name="mae-telefone" id="mae-telefone" value="" placeholder="Celular*" required/>
+                            <input type="email" name="mae-email" id="mae-email" value="" placeholder="E-mail*" required/>
+                            <input type="text" name="mae-cpf" id="mae-cpf" value="" placeholder="CPF*" required/>
+                            <input type="checkbox" name="mae-responsavel" id="mae-responsavel" />
+                            <label for="mae-responsavel" class="checkbox-label">Responsável Financeiro</label>
+
+                        </div>
+
+
+                        <div class="col-6 col-12-xsmall">
+
+                            <h2>Dados do Curso</h2>
+                            <input type="text" name="curso-nome" id="curso-nome" value="Inglês para Crianças" placeholder="Nome do Curso Escolhido*" required/>
+                            <label for="">Data de Ingresso: </label>
+                            <input type="date" name="data-ingresso" id="data-ingresso" value="" placeholder="Data de Ingresso*" required/>
+                            <input type="text" name="curso-valor" id="curso-valor" value="100,00" placeholder="Valor*" required/>
+                            <label for="">Numero de Parcelas: </label>
+                            <input type="number" name="Parcelas" id="Parcelas" value="" placeholder="Número de Parcelas*" required/>
+
+                        </div>
+
+
+                        <div class="col-12">
+                            <ul class="actions">
+                                <li><input type="submit" value="Enviar" class="primary" /></li>
+                                <li><input type="reset" value="Limpar" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </section>
+
+</div>
+
+<!-- Footer -->
+<footer id="footer" class="wrapper alt">
+    <div class="inner">
+        <ul class="menu">
+            <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
